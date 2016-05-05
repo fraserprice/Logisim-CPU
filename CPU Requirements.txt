@@ -1,0 +1,17 @@
+CPU Requirements:
+
+Data handling and Memory:
+Register:
+-->Small memory/cache for processing commands
+-->Address registers
+Must be able to set a register to a fixed value
+Must bve able to move memory from register to memory location and vice versa
+Read and write data from hardware
+
+Arithmetic and Logic operations:
+-->Add, subtract, multiply, divide
+-->Value comparision
+
+Control flow operations:
+-->Conditional branching to another location in program (ie jump to different code line if requirement is met )
+

@@ -1,0 +1,23 @@
+Binary long division:
+
+A=divisor
+B=dividend
+(So that A/B)
+Lo = Length of
+
+Get length of A and B. Save value of B.
+B = B*2^(Lo(A) - Lo(B)).
+
+//MAIN SECTION
+
+If (A >= Saved value of B) { 
+	go to below if statement
+} Else {
+	Answer = quotient remainder end value of A
+};
+If (B <= A) { 
+	A = (A - B). Double quotient, add 1 and half 	B, return to above if statement
+} Else {
+	double quotient and half B, return to above if 	statement
+};
+

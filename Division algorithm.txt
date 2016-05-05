@@ -1,0 +1,12 @@
+Division algorithm (A/B):
+
+1.  Read input values;
+2.  Compare input values. Wait until comparison process has finished; (~10 Ticks)
+3.  If A<B go to step 10. If A>B, go to next step;
+4.  Subtract B from A;
+5.  Wait until subtraction process has finished; (~80 Ticks)
+6.  Add one to count;
+7.  Wait until counting process has finished; (~50 Ticks)
+8.  Write value from subtraction process to input;
+9.  Go to step 1;
+10. A<B. Therefore answer is Count remainder A.
